@@ -36,20 +36,22 @@ nav {
 }
 
 main{
-    width: 74%;
     padding: 2%;
+    height: 500px;
+    background-image: url(../images/hero\ image@2x.jpg);
 }
+
 .list {
     display:inline-block;
     width: 50%;
     margin-left: auto;
 }
 
-.heroImg{
-    height: 700px;
-    padding: 0;
-    display: inline-block;
-
+.textCenter{
+color: white;
+margin: auto;
+width: 50%;
+text-align: center;
 }
 
 .content {
@@ -60,12 +62,10 @@ main{
 footer{
     background-color: #373738;
     padding: 40px;
-    position: absolute;
     bottom: 0;
     left: 0;
     text-align: center;
     width: 100%;
-    display: inline-block;
 }
 
 .listFooter {
